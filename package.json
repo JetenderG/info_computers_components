@@ -1,0 +1,12 @@
+{
+  "name": "info_computers_components",
+  "version": "1.0.0",
+  "description": "Display brief information on computer parts. Information like description, uses, where to find them, links, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
