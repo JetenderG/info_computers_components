@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
- NavBar_Container = (children) => {
+ let NAVBAR_CONTAINER = (children) => {
     
         return (
             <div className='navbar_container'>
@@ -10,4 +10,4 @@ import React, {Component} from 'react';
     
 }
 
-export default NavBar_Container;
+export default NAVBAR_CONTAINER;

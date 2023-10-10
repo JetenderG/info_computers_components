@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
-import NavBar_Container from "./Vav_bar_Container";
-
+import NAVBAR_CONTAINER from "./nav_bar_Container/index.js";
+import './style.css';
 
 
 class NavBar extends Component {
     render() {
         return (
-            <NavBar_Container>
                 <div className='navbar'>
                     <div className='navbar_logo'>
                         <a href='#'>Logo</a>
@@ -19,7 +18,8 @@ class NavBar extends Component {
                         </ul>
                     </div>
                 </div>
-            </NavBar_Container>
         )
     }
 }
+
+export default NavBar;
