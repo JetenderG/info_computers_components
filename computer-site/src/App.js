@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import NavBar from './components/navbar/index.js'
 import Footer from './components/footer';
+import Main from './components/main/Main';
 import './App.css';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           Learn React
         </a>
       </NavBar>
-      
+      <Main/>
       <Footer/>
     </div>
 

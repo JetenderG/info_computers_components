@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
+import ComponentItems from '../Item_Components/component.js';
 
 
-
-class Main extends Component {
+export default class Main extends Component {
     render(){
         return(
-            <div className='main'>
-                {this.props.children}
-            </div>
+                <div className='main_container'>
+                    <div className='main_item'>
+                        <ComponentItems />
+                    </div>
+                </div>
         )
     }
 }
