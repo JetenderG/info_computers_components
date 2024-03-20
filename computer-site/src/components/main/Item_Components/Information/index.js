@@ -8,13 +8,13 @@ function information_exist(){
 
 
 
-export default function ItemInformation(){
+export default function ItemInformation({information}){
 
 
     return (
         <div className = "info_container">
-            <div className = "info_title"><span><h3>Component Name</h3></span></div>
-            <div className = "info_content"><span><p>Nam mollis lectus sit amet ultricies tempor. Nunc sapien nisl, convallis sit amet ultrices a, rutrum sed metus. Sed sit amet ante turpis. Cras placerat metus ut massa rhoncus, et imperdiet lectus volutpat. Proin a tortor sapien. Etiam ultricies fringilla eros, ut hendrerit ante bibendum nec</p></span>
+            <div className = "info_title"><span><h3>{information[0]}</h3></span></div>
+            <div className = "info_content"><span><p>{information[1]}</p></span>
             </div>
         </div>
     )

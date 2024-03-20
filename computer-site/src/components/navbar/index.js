@@ -11,7 +11,7 @@ class NavBar extends Component {
                         <a href='#'>Logo</a>
                     </div>
                     <div className='navbar_menu'>
-                        <ul>
+                        <ul className='navLinks'>
                             <li><a href='#'>Home</a></li>
                             <li><a href='#'>About</a></li>
                             <li><a href='#'>Contact</a></li>
