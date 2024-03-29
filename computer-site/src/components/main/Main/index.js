@@ -8,6 +8,7 @@ export default class Main extends Component {
                 <div className='main_container'>
                     <div className='main_header'>
                         <h1>Computer Components for Beginners</h1>
+                        <img></img>
                         <div className='main_header_text'>
                             <p>This site dedicated to the basics of understanding of both Inside and Outside of a computer</p>
                             <p>Here is the list of computer components that is essential in every pc.</p>
