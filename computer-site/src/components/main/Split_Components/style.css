@@ -12,7 +12,18 @@
 }
 .split_container{
     display: flex;
-    border: black 2px solid;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.split_top > div  {
+  display: flex;
+  flex-direction: row;
+}
+
+.split_bottom > div  {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+

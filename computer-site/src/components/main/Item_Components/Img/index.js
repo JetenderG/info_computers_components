@@ -2,14 +2,14 @@
 
 
 
-export default function ItemImg(props){
+export default function ItemImg({imgsC}){
    // let args = props.arg;
 
    // const content =   args.map((element => <p>"hello"</p>));
 
     return(   
         <span className="img-container">
-            <img src="https://placehold.co/200x200" alt="img" />
+            <img src={imgsC[2]}alt="img" />
         </span>
     
     )   

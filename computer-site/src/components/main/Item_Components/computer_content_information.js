@@ -16,4 +16,7 @@ let computer_components_inside = [
                 ["PSU", "PSU (Power Supply Unit) is a hardware component that supplies power to an electrical load. The PSU converts electrical power from an external source to the correct voltage, current, and frequency needed by the computer's internal components. It also regulates the voltage to eliminate spikes and surges common in most electrical systems."],
               ["optical drive", "An optical drive is a piece of computer hardware about the size of a thick softcover book. They are used to read and write data from optical discs (CD, DVD, and Blu-ray). This is where you insert your CD, DVD, or Blu-ray disc to install software or watch movies. Some optical drives can also write data to the disc. This is where you burn your CD, DVD, or Blu-ray disc."],
 ]
+
+
+
 export {computer_components_outside, computer_components_inside};
